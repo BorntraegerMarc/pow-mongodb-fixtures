@@ -1,11 +1,11 @@
 {
-  "author": "Charles Davison <charlie@powmedia.co.uk>",
-  "name": "pow-mongodb-fixtures",
+  "author": "Marc Bornträger (https://github.com/BorntraegerMarc)",
+  "name": "mongodb_fixtures",
   "description": "Easy JSON fixture loading for MongoDB.  Makes managing document relationships easier.",
-  "version": "0.14.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "http://github.com/powmedia/pow-mongodb-fixtures.git"
+    "url": "http://github.com/BorntraegerMarc/pow-mongodb-fixtures.git"
   },
   "bin": {
     "mongofixtures": "./bin/mongofixtures"

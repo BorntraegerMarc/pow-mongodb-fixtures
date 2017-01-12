@@ -7,7 +7,7 @@ var dbName = argv._[0],
     host = argv._[1],
     file = path.resolve(process.cwd(), argv._[2]);
 
-var fixtures = require('pow-mongodb-fixtures').connect(dbName, {host: host});
+var fixtures = require('mongodb_fixtures').connect(dbName, {host: host});
 
 fixtures.clearAllAndLoad(file, function(err) {
   if (err) {

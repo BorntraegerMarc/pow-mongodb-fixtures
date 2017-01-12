@@ -58,9 +58,9 @@ A CLI program is included for quickly loading fixture files. To use it install t
 
 Then use the program to install a file or directory:
 
-    mongofixtures <dbname> <fixture file>
+    mongofixtures <dbname> <host> <fixture file>
 
-    mongofixtures appdb fixtures/users.js
+    mongofixtures appdb localhost fixtures/users.js
 
 
 API
